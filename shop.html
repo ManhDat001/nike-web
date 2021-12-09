@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/css/grid.css">
+    <link rel="stylesheet" href="/asset/css/base.css">
+    <link rel="stylesheet" href="/asset/css/responsive.css">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/css/shop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,400&display=swap"rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <title>Shop </title>
+</head>
+<body>
+
+   <div class="app">
+    <header class="header">     
+        <div class="grid">
+            <div class="header-top">
+                <div class="header-top__brand">
+                    <a href="" class="header-top__brand-link">
+                        <svg height="24px" width="24px" fill="#111" viewBox="0 0 26 32" class="header-top__icon">
+                            <path
+                                d="M14.4 5.52v-.08q0-.56.36-1t.92-.44 1 .36.48.96-.36 1-.96.4l-.24.08.08.12-.08.44-.16 1.28q.08.08.08.16l-.16.8q-.08.16-.16.24l-.08.32q-.16.64-.28 1.04t-.2.64V12q-.08.4-.12.64t-.28.8q-.16.32 0 1.04l.08.08q0 .24.2.56t.2.56q.08 1.6-.24 2.72l.16.48q.96.48.56 1.04l.4.16q.96.48 1.36.84t.8.76q.32.08.48.24l.24.08q1.68 1.12 3.36 2.72l.32.24v.08l-.08.16.24.16h.08q.24.16.32.16h.08q.08 0 .16-.08l.16-.08q.16-.16.32-.24h.32q.08 0 0 .08l-.32.16-.4.48h.56l.56.08q.24-.08.4-.16l.4-.24q.24-.08.48.16h.08q.08.08-.08.24l-.96.88q-.4.32-.72.4l-1.04.72q-.08.08-.16 0l-.24-.32-.16-.32-.2-.28-.24-.32-.2-.24-.16-.2-.32-.24q-.16 0-.32-.08l-1.04-.8q-.24 0-.56-.24-1.2-1.04-1.6-1.28l-.48-.32-.96-.16q-.48-.08-1.28-.48l-.64-.32q-.64-.32-.88-.32l-.32-.16q-.32-.08-.48-.16l-.16-.16q-.16 0-.32.08l-1.6.8-2 .88q-.8.64-1.52 1.04l-.88.4-1.36.96q-.16.16-.32 0l-.16.16q-.24.08-.32.08l-.32.16v.16h-.16l-.16.24q-.16.32-.32.36t-.2.12-.08.12l-.16.16-.24.16-.36-.04-.48.08-.32.08q-.4.08-.64-.12t-.4-.6q-.16-.24.16-.4l.08-.08q.08-.08.24-.08h.48L1.6 26l.32-.08q0-.16.08-.24.08-.08.24-.08v-.08q-.08-.16-.08-.32-.08-.16-.04-.24t.08-.08h.04l.08.24q.08.4.24.24l.08-.16q.08-.16.24-.16l.16.16.16-.16-.08-.08q0-.08.08-.08l.32-.32q.4-.48.96-.88 1.12-.88 2.4-1.36.4-.4.88-.4.32-.56.96-1.2.56-.4.8-.56.16-.32.4-.32H10l.16-.16q.16-.08.24-.16v-.4q0-.4.08-.64t.4-.24l.32-.32q-.16-.32-.16-.72h-.08q-.16-.24-.16-.48-.24-.4-.32-.64h-.24q-.08.24-.4.32l-.08.16q-.32.56-.56.84t-.88.68q-.4.4-.56.88-.08.24 0 .48l-.08.16h.08q0 .16.08.16h.08q.16.08.16.2t-.24.08-.36-.16-.2-.12l-.24.24q-.16.24-.32.2t-.08-.12l.08-.08q.08-.16 0-.16l-.64.16q-.08.08-.2 0t.04-.16l.4-.16q0-.08-.08-.08-.32.16-.64.08l-.4-.08-.08-.08q0-.08.08-.08.32.08.8-.08l.56-.24.64-.72.08-.16q.32-.64.68-1.16t.76-.84l.08-.32q.16-.32.32-.56t.4-.64l.24-.32q.32-.48.72-.48l.24-.24q.08-.08.08-.24l.16-.16-.08-.08q-.48-.4-.48-.72-.08-.56.36-.96t.88-.36.68.28l.16.16q.08 0 .08.08l.32.16v.24q.16.16.16.24.16-.24.48-.56l.4-1.28q0-.32.16-.64l.16-.24v-.16l.24-.96h.16l.24-.96q.08-.24 0-.56l-.32-.8z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <ul class="header-top-user__list">
+                    <li class="header-top-user__item">
+                        <a href="" class="header-top-user__link">Help</a>
+                    </li>
+                    <li class="header-top-user__item">
+                        <a href="" class="header-top-user__link">Join Us</a>
+                    </li>
+                    <li class="header-top-user__item">
+                        <a href="" class="header-top-user__link">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-bottom">
+                <div class="header-bottom__brand">
+                    <a href="" class="header-bottom__brand-link">
+                        <svg class="pre-logo-svg" height="60px" width="60px" fill="#111" viewBox="0 0 69 32">
+                            <path
+                                d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <ul class="header-bottom__menu-list">
+                    <li class="header-bottom__menu-item header-bottom__menu-men-dropdown">
+                        <a href="" class="header-bottom__menu-link">Men</a>
+
+                        <!-- Header-bottom-menu dropdown -->
+
+                        <div class="header-menu-men">
+                            <div class="grid">
+                                <div class="row header-menu__grid">
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>New Releases</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">SNKRS Launch Calendar</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Member Access</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sustainable Materials</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Air Force 1</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Football Club Kits</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Top Picks Under
+                                                    2,300,000₫</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sale</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shoes</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Newest Sneakers</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Shoes</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Lifestyle</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Jordan</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sandals and Slides</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Customise with Nike By
+                                                    You</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Sale Shoe</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Clothing</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Clothing</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tops and T-Shirts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">SJerseys and Kits</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Hoodies and
+                                                    Sweatshirts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Jackets and Gilets</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Pants and Leggings</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Compression and Base
+                                                    Layer</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Shorts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Caps</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Socks</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Bags and Backpacks</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Accessories and
+                                                    Equipment</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Sale Clothing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shop By Sport</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Yoga</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Golf</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shop By Sport</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Yoga</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Golf</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="header-bottom__menu-item header-bottom__menu-men-dropdown">
+                        <a href="" class="header-bottom__menu-link header-bottom__menu-woman-dropdown">Woman</a>
+
+                         <!-- Header-bottom-menu dropdown -->
+                         <div class="header-menu-woman">
+                            <div class="grid">
+                                <div class="row header-menu__grid">
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>New Releases</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">SNKRS Launch Calendar</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Member Access</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sustainable Materials</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Air Force 1</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Football Club Kits</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Top Picks Under
+                                                    2,300,000₫</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sale</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shoes</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Newest Sneakers</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Shoes</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Lifestyle</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Jordan</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Sandals and Slides</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Customise with Nike By
+                                                    You</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Sale Shoe</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Clothing</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Clothing</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tops and T-Shirts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">SJerseys and Kits</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Hoodies and
+                                                    Sweatshirts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Jackets and Gilets</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Pants and Leggings</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Compression and Base
+                                                    Layer</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Shorts</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Caps</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Socks</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Bags and Backpacks</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Accessories and
+                                                    Equipment</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">All Sale Clothing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shop By Sport</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Yoga</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Golf</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <ul class="header-menu__dropdown-list">
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    <h3>Shop By Sport</h3>
+                                                </a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Running</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Football</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">
+                                                    Basketball</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Gym and Training</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Yoga</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Skateboarding</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Tennis</a>
+                                            </li>
+                                            <li class="header-menu__dropdown-item">
+                                                <a href="" class="header-menu__dropdown-link">Golf</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-bottom__menu-item header-bottom__menu-men-dropdown">
+                        <a href="" class="header-bottom__menu-link">Kids</a>
+                    </li>
+                    <li class="header-bottom__menu-item header-bottom__menu-men-dropdown">
+                        <a href="" class="header-bottom__menu-link">Customise</a>
+                    </li>
+                    <li class="header-bottom__menu-item">
+                        <a href="" class="header-bottom__menu-link">Sale</a>
+                    </li>
+                    <li class="header-bottom__menu-item">
+                        <a href="" class="header-bottom__menu-link">SNKRS</a>
+                    </li>
+                </ul>
+
+                <div class="header-bottom__user">
+                    <div class="header-bottom__search">
+                        <button class="header-bottom__search-btn">
+                            <i class="fas fa-search header-search__icon"></i>
+                        </button>
+                        <div class="header-bottom__search-wrap">
+                            <input type="text" class="header-bottom__search-input" placeholder="Search" />
+                        </div>
+                    </div>
+
+                    <div class="header-bottom__favorite">
+                        <a href="" class="header-bottom__favorite-link">
+                            <svg width="24px" height="24px" fill="#111" viewBox="0 0 24 24">
+                                <path
+                                    d="M21.11 4a6.6 6.6 0 0 0-4.79-1.92A6.27 6.27 0 0 0 12 3.84 6.57 6.57 0 0 0 2.89 4c-2.8 2.68-2.45 7.3.88 10.76l6.84 6.63A2 2 0 0 0 12 22a2 2 0 0 0 1.37-.54l.2-.19.61-.57c.6-.57 1.42-1.37 2.49-2.41l2.44-2.39 1.09-1.07c3.38-3.55 3.8-8.1.91-10.83zm-2.35 9.4l-.25.24-.8.79-2.44 2.39c-1 1-1.84 1.79-2.44 2.36L12 20l-6.83-6.68c-2.56-2.66-2.86-6-.88-7.92a4.52 4.52 0 0 1 6.4 0l.09.08a2.12 2.12 0 0 1 .32.3l.9.94.9-.94.28-.27.11-.09a4.52 4.52 0 0 1 6.43 0c1.97 1.9 1.67 5.25-.96 7.98z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="header-bottom__bag">
+                        <a href="" class="header-bottom__bag-link">
+                            <svg width="24px" height="24px" fill="#111" viewBox="0 0 24 24">
+                                <path
+                                    d="M16 7a1 1 0 0 1-1-1V3H9v3a1 1 0 0 1-2 0V3a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1z">
+                                </path>
+                                <path
+                                    d="M20 5H4a2 2 0 0 0-2 2v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a2 2 0 0 0-2-2zm0 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7h16z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-slideshow">
+                <div class="header__slides">
+                    <h3 class="header__slide-title">HELLO NIKE APP</h3>
+                    <p class="header__slide-content"> Download the app to access everything Nike. <a href="" class="header__slides-link"> Get Your Great</a></p> 
+                </div>
+                <!-- <div class="header__slides">
+                    <q>HELLO NIKE APP</q>
+                    <p class=""> Download the app to access everything Nike.</p> <a href="" class="header__slides-link"> Get Your Great</a>
+                </div>
+                <div class="header__slides">
+                    <q>HELLO NIKE APP</q>
+                    <p class=""> Download the app to access everything Nike.</p> <a href="" class="header__slides-link"> Get Your Great</a>
+                </div>
+                 -->
+                  
+            </div>
+        </div>
+    </header>
+
+    <div class="app__container">
+        <div class="grid wide">
+            <div class="row app__content">
+                <div class="col l-2">                  
+                   <div class="category">
+                       <h1 class="category__heading">
+                            Air Max(73)
+                        </h1>
+                        <nav class="category__container">                            
+                            <ul class="category__product-list">
+                                <li class="category__product-item">                                   
+                                    <a href="" class="category__product-link">Air Max 1</a>
+                                </li>
+                                <li class="category__product-item">
+                                    <a href="" class="category__product-link">Air Max 90</a>
+                                </li>
+                                <li class="category__product-item">
+                                    <a href="" class="category__product-link">Air Max 95</a>
+                                </li>
+                                <li class="category__product-item">
+                                    <a href="" class="category__product-link">Air Max 97</a>
+                                </li>
+                                <li class="category__product-item">
+                                    <a href="" class="category__product-link">Air Max 270</a>
+                                </li>
+                                <li class="category__product-item">
+                                    <a href="" class="category__product-link">Air Max 2021</a>
+                                </li>
+                            </ul>   
+                            
+                            <ul class="category__gender-list">
+                                <h3 class="category__gender-heading">Gender</h3>
+                                <li class="category__gender-item">
+                                    <input type="checkbox" checked="checked" id ="men" class="">
+                                    <label for="men">Men</label>
+                                </li>
+                                <li class="category__gender-item">
+                                    <input type="checkbox" checked="checked" id="woman" >
+                                    <label for="woman">Woman</label>
+                                </li>
+                                <li class="category__gender-item">
+                                    <input type="checkbox" checked="checked" id="unisex">
+                                   <label for="unisex">Unisex</label>
+                                </li>
+                            </ul>
+
+                            <ul class="category__kids-list">
+                                <li class="category__kids-item">
+                                    <input type="checkbox" checked="checked" id="boy">
+                                    <label for="boy">Boys</label>
+                                </li>
+                                <li class="category__kids-item">
+                                    <input type="checkbox" checked="checked" id="girl">
+                                    <label for="girl">Girls</label>
+                                </li>
+                            </ul>
+                            
+                            <ul class="category__colour-list">
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">Purple</a>
+                                </li>
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">Black</a>
+                                </li>
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">Red</a>
+                                </li>
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">Blue</a>
+                                </li>
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">Orange</a>
+                                </li>
+                                <li class="category__colour-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__colour-link">White</a>
+                                </li>
+                            </ul>
+
+                            <ul class="category__brand-list">
+                                <li class="category__brand-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__brand-link">Nike Sportwear</a>
+                                </li>
+                                <li class="category__brand-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__brand-link">Nike By You</a>
+                                </li>
+                                <li class="category__brand-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__brand-link">NikeLab</a>
+                                </li>
+                                <li class="category__brand-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__brand-link">Nike</a>
+                                </li>
+                            </ul>
+                            
+                            <ul class="category__sports-list">
+                                <li class="category__sports-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__sports-link">Likestyle</a>
+                                </li>
+                                <li class="category__sports-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__sports-link">Training & Gym</a>
+                                </li>
+                                <li class="category__sports-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__sports-link">Basketball</a>
+                                </li>
+                                <li class="category__sports-item">
+                                    <input type="checkbox" checked="checked">
+                                    <a href="" class="category__sports-link">Golf</a>
+                                </li>
+                                <div class="sports_more-btn">+ More</div>
+
+                            </ul>
+
+                            <div class="category__athletes">
+                                <input type="checkbox" checked="checked">
+                                <p class="category__athletes-text">Serena Williams</p>
+                            </div>                            
+                            <div class="category__bestfor">
+                                <input type="checkbox" checked="checked">
+                                <p class="category__bestfor-text">Cold Weather</p>
+                            </div>
+                            <div class="category__collaborator">
+                                <input type="checkbox" checked="checked">
+                                <p class="category__collaborator-text">Patta</p>
+                            </div>
+                        </nav>
+                   </div>
+
+                </div>
+                <div class="col l-10">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="footer-container row">
+                <div class="col l-2">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-link">FIND A STORE</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-link">BECOME A MEMBER</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-link">SIGN UP FOR EMAIL</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-link">SEND US FEEDBACK</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col l-2">
+                    <h3 class="footer-heading">GET HELP</h3>
+                    <ul class="footer__body-list">
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Order Status</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Delivery</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">ReturnsL</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Payment Options</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col l-2">
+                    <h3 class="footer-heading">ABOUT NIKE</h3>
+                    <ul class="footer__body-list">
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">News</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Careers</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Investors</a>
+                        </li>
+                        <li class="footer__body-item">
+                            <a href="" class="footer__body-link">Sustainability</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col l-6">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link"><i class="footer__social-icon fab fa-twitter"></i></a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link"><i class="footer__social-icon fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer__social-item">                                
+                            <a href="" class="footer__social-link"><i class="footer__social-icon fab fa-youtube"></i></a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link"><i class="footer__social-icon fab fa-instagram"></i></a>
+                        </li>                     
+                    </ul>                        
+                </div>                    
+            </div>
+            <div class="footer__bottom row">
+                <div class="footer__bottom-container col l-12">
+                    <div class="footer__bottom-location">
+                        <a href="" class="footer__bottom-location-link"><i class="footer__bottom-icon fas fa-map-marker-alt"></i>Vietnam</a>     
+                        <p class="footer-text">© 2021 Nike, Inc. All Rights Reserved</p>                      
+                    </div>
+                    <ul class="footer__bottom-list">
+                        <li class="footer__bottom-item"><a href="" class="footer__bottom-link">Guides</a></li>
+                        <li class="footer__bottom-item"><a href="" class="footer__bottom-link">Terms of Sale</a></li>
+                        <li class="footer__bottom-item"><a href="" class="footer__bottom-link">Terms of Use</a></li>
+                        <li class="footer__bottom-item"><a href="" class="footer__bottom-link">Nike Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

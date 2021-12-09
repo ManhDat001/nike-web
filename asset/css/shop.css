@@ -1,0 +1,77 @@
+.category{
+    margin-top: 28px;
+
+}
+
+.category__heading{
+    font-weight: 300;
+    font-size: 2.4rem;
+
+}
+
+.category__container{
+    overflow-y: auto;
+}
+
+.category__product-list{
+    padding: 0 0 40px 0;
+    list-style: none;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.category__product-item{
+
+}
+
+.category__product-link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(17, 17, 17);
+    padding-bottom: 10px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.category__gender-list{
+    list-style: none;
+    padding: 0;
+
+}
+
+.category__gender-heading{
+    margin-left: 4px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(17, 17, 17) ;
+}
+
+.category__gender-item{
+
+}
+
+[type ="checkbox"]{
+    opacity: 0;
+}
+
+[type ="checkbox"] + label{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: #666;
+    line-height: 1.4rem;line-height: 1.4rem;
+}
+
+[type ="checkbox"] + label::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;    
+    top: 0;
+    left: -20px;
+    outline: 1px solid #666;
+    background: var(--white-color);
+    border-radius: 4px;
+
+}
