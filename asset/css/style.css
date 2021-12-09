@@ -663,9 +663,8 @@
 
 .footer__bottom-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
-
 }
 
 .footer__bottom-item{
